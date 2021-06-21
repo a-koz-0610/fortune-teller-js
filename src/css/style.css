@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital@1&display=swap');
+
+.container {
+  background-color: lightskyblue;
+  font-family: 'Barlow Condensed', sans-serif;
+  margin: 20px auto;
+  max-width: 90vw;
+  padding: 10px;
+  text-align: center;
+}
+
+.userInput__container {
+  background-color: #cccccc;
+  border: 2px solid lightseagreen;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Barlow Condensed', sans-serif;
+  padding: 20px;
+}
+
+.userInput__container input {
+  border: 1px solid lightseagreen;
+  box-shadow: 0px -2px 17px -8px rgba(0, 0, 0, 0.75);
+  margin: 2px auto;
+  width: 75%;
+}
+
+.userInput__submit {
+  border: 1px solid lightseagreen;
+  border-radius: 8px;
+  margin: auto;
+  width: 100px;
+}
+
+.userInput__submit:hover {
+  background-color: lightskyblue;
+  transition: 0.5s;
+}
+
+.display__userInputContainer {
+  background-color: darkblue;
+  display: block;
+  padding: 25px;
+}
+
+.hide__userInputContainer {
+  opacity: 0;
+  transition: 1s;
+}
